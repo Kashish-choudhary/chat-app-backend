@@ -1,5 +1,5 @@
 const corsOptions = {
-  origin: process.env.CLIENT_URL,
+  origin: "https://chat-app-frontend-eight-liart.vercel.app",
   credentials: true,
 };
 
