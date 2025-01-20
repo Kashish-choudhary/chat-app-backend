@@ -73,7 +73,7 @@ app.use("/api/v1/admin", adminRoute);
 app.use("/api/v1/call" , callRoute)
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World");
 });
 
 io.use((socket, next) => {
